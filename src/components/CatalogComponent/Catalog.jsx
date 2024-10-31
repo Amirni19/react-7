@@ -63,8 +63,8 @@ export function Catalog() {
                 </div>
                 <Search handleChange={handleChange} />
                 <select className={style.sort} onChange={sort}>
-                    <option value="price_up" >Сначала дешевле</option>
-                    <option value="price_down">Сначала дороже</option>
+                    <option value="price_up" >Цены ниже</option>
+                    <option value="price_down">Цены выше</option>
                 </select>
             </div>
             <div className={style.catalog_grid}>
@@ -76,7 +76,7 @@ export function Catalog() {
                             )
                         })
                         :
-                        <p className="error">Ничего не найдено по запросу "{query}"</p>
+                        <p className="error">Извините, но к сажелению ничего не найдено по запросу "{query}"</p>
                 }
             </div>
         </>
