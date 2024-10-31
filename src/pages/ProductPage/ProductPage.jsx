@@ -9,7 +9,7 @@ export function ProductPage() {
     return (
         <>
             <div className="container mt110">
-                <Link to={'/catalog'} className={style.back}>На главную</Link>
+                <Link to={'/'} className={style.back}>На главную</Link>
                 <div className={style.main_flex}>
                     <img src={product.img} alt="s" className={style.img} />
                     <div className={style.right_flex}>
