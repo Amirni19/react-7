@@ -13,10 +13,10 @@ export function HomePage() {
             <Banner />
             <div className='container'>
                 <FadeSlider />
-                <Accordeon />
                 <div className="mt110">
                     <Catalog />
                 </div>
+                <Accordeon />
             </div>
         </>
     )
