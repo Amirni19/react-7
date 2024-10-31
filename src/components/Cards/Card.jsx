@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import style from './Card.module.css'
-import card_img from '/src/assets/Rectangle3.png'
 import ReactModal from 'react-modal'
 import { useState } from 'react'
 
